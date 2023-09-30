@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+
+  h1, h3, p {
+    color: white;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: $title1;
+  }
+
+  h3, p {
+    font-family: $title2;
+  }
+}

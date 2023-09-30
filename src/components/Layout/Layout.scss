@@ -1,0 +1,11 @@
+@import '../../styles/variables.scss';
+
+.layout {
+  height: 100%;
+  background-color: $air-force-blue;
+
+  &.disable-scroll {
+    overflow: hidden;
+    height: 100vh;
+  }
+}
