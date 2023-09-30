@@ -45,7 +45,7 @@ function Boda() {
       playAudio();
     }
     if (wasOnViewMoreClicked) {
-      setTimeout(smoothScrollToContainer, 500);
+      setTimeout(smoothScrollToContainer, 800);
     } else {
       setWasOnViewMoreClicked(true);
     }
@@ -53,7 +53,7 @@ function Boda() {
 
   useEffect(() => {
     if (wasOnViewMoreClicked) {
-      setTimeout(smoothScrollToContainer, 5000);
+      setTimeout(smoothScrollToContainer, 800);
     }
   }, [wasOnViewMoreClicked]);
 

@@ -1,12 +1,12 @@
 import React from 'react';
-import { Box, IconButton, Typography } from '@mui/material';
-import JoinFullOutlinedIcon from '@mui/icons-material/JoinFullOutlined';
+import { Box, Button, Typography } from '@mui/material';
 
 import SmallHeroImage from '../../assets/images/gigi-julio-small.png';
 import LargeHeroImage from '../../assets/images/gigi-julio-large.png';
 import PulsatingElement from '../PulsatingElement';
 
 import './Hero.scss';
+import Rings from '../Rings';
 
 const textColor = 'white';
 
@@ -60,9 +60,9 @@ const Hero = ({ onViewMore }) => {
           }}
         >
           <PulsatingElement>
-            <IconButton size="large" aria-label="Ver más" onClick={onViewMore}>
-              <JoinFullOutlinedIcon sx={{ color: textColor }} />
-            </IconButton>
+            <Button onClick={onViewMore}>
+              <Rings />
+            </Button>
           </PulsatingElement>
         </Box>
       </Box>

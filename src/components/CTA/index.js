@@ -6,7 +6,6 @@ const CTA = () => {
       maxWidth="md" 
       sx={{ 
         px: 4, 
-        pt: 2, 
         pb: 8,
         display: 'flex',
         justifyContent: 'center',

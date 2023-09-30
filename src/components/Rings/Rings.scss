@@ -1,0 +1,20 @@
+.ring-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring {
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+
+  &.ring1 {
+    transform: translateX(5px);
+  }
+
+  &.ring2 {
+    transform: translateX(-5px);
+  }
+}
