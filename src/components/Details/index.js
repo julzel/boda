@@ -33,17 +33,17 @@ const Details = () => {
         </Typography>
         <Divider sx={{ my: 2 }} />
         <Title>
-          <CalendarMonthIcon sx={{ color: textColor }} />;
+          <CalendarMonthIcon sx={{ color: textColor }} />
           Fecha:
         </Title>
         <Typography variant="body1" component="p" gutterBottom>
           17 de febrero de 2024
         </Typography>
         <Divider sx={{ my: 2 }} />
-        <Typography variant="h5" component="h3" gutterBottom>
+        <Title>
           <AccessAlarmsIcon sx={{ color: textColor }} />
           Hora:
-        </Typography>
+        </Title>
         <Typography variant="body1" component="p" gutterBottom>
           2:30 p.m.
         </Typography>
