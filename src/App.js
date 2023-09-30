@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import Hero from './components/Hero';
 import MuteButton from './components/MuteButton';
 import VideoContainer from './components/VideoContainer';
-import VideoFile from './assets/video/carmesi.mp4';
+import VideoFile from './assets/video/collage.mp4';
 import audioFile from './assets/audio/dandankokoro-piano.mp3';
 import Layout from './components/Layout';
 import AudioContainer from './components/AudioContainer';
