@@ -37,7 +37,7 @@ const Details = () => {
           Fecha:
         </Title>
         <Typography variant="body1" component="p" gutterBottom>
-          17 de febrero de 2023
+          17 de febrero de 2024
         </Typography>
         <Divider sx={{ my: 2 }} />
         <Typography variant="h5" component="h3" gutterBottom>
