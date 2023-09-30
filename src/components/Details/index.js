@@ -45,7 +45,7 @@ const Details = () => {
           Hora:
         </Typography>
         <Typography variant="body1" component="p" gutterBottom>
-          3:00 p.m.
+          2:30 p.m.
         </Typography>
       </Box>
     </Container>
