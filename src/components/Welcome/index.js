@@ -23,7 +23,7 @@ const Welcome = ({ welcomeRef }) => {
             >
               <Divider sx={{ my: 2 }} />
               <Typography variant="h2" component="h1" gutterBottom>
-                Yerlin Marques De la O
+                Yerlin Marquez De la O
               </Typography>
               <Typography variant="h2" component="h1" gutterBottom>
                 &amp;
