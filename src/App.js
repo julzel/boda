@@ -1,73 +1,23 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
+import { BrowserRouter as RouterDom, Routes, Route } from 'react-router-dom';
 
-import Hero from './components/Hero';
-import MuteButton from './components/MuteButton';
-import VideoContainer from './components/VideoContainer';
-import VideoFile from './assets/video/collage.mp4';
-import audioFile from './assets/audio/dandankokoro-piano.mp3';
-import Layout from './components/Layout';
-import AudioContainer from './components/AudioContainer';
-import Welcome from './components/Welcome';
-import Details from './components/Details';
-import CTA from './components/CTA';
+import Home from './routes/Home';
+import Upload from './routes/Upload';
+import Wedding from './routes/Wedding';
+import Invite from './routes/Invite';
 
-function Boda() {
-  const [isMuted, setIsMuted] = useState(true);
-  const [wasManuallyMuted, setWasManuallyMuted] = useState(false);
-  const [wasOnViewMoreClicked, setWasOnViewMoreClicked] = useState(false);
-  const audioRef = useRef();
-  const welcomeRef = useRef();
-
-  const playAudio = () => {
-    audioRef.current.play();
-    setIsMuted(false);
-  };
-
-  const pauseAudio = () => {
-    audioRef.current.pause();
-    setIsMuted(true);
-  };
-
-  const handleToggleMute = () => {
-    if (isMuted) {
-      playAudio();
-    } else {
-      pauseAudio();
-    }
-    setWasManuallyMuted(!wasManuallyMuted);
-  };
-
-  const smoothScrollToContainer = () =>
-    welcomeRef.current.scrollIntoView({ behavior: 'smooth' });
-
-  const onViewMore = () => {
-    if (!wasManuallyMuted) {
-      playAudio();
-    }
-    if (wasOnViewMoreClicked) {
-      setTimeout(smoothScrollToContainer, 800);
-    } else {
-      setWasOnViewMoreClicked(true);
-    }
-  };
-
-  useEffect(() => {
-    if (wasOnViewMoreClicked) {
-      setTimeout(smoothScrollToContainer, 800);
-    }
-  }, [wasOnViewMoreClicked]);
-
+const App = () => {
   return (
-    <Layout disableScroll={!wasOnViewMoreClicked}>
-      <Hero onViewMore={onViewMore} />
-      <Welcome welcomeRef={welcomeRef} />
-      <VideoContainer videoUrl={VideoFile} />
-      <Details />
-      <CTA />
-      <AudioContainer audioRef={audioRef} audioFile={audioFile} />
-      <MuteButton handleToggleMute={handleToggleMute} isMuted={isMuted} />
-    </Layout>
+    <RouterDom>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/subir' element={<Upload />} />
+        <Route path='/boda' element={<Wedding />} />
+        <Route path='/invitacion' element={<Invite />} />
+      </Routes>
+    </RouterDom>
   );
-}
+};
 
-export default Boda;
+export default App;
+
