@@ -1,59 +1,77 @@
-import React, { useState } from 'react';
-import { Button, TextField, Typography, Input, FormControl, InputLabel } from '@mui/material';
+import React from 'react';
+import { Button, TextField, Typography } from '@mui/material';
+import useUpload from '../../hooks/useUpload';
+import ImageCarousel from '../../components/ImageCarousel';
 
 const Upload = () => {
-  const [selectedFiles, setSelectedFiles] = useState(null);
-  const [hashtags, setHashtags] = useState('');
+  const {
+    images,
+    handleFileChange,
+    handleHashtagChange,
+    handleDelete,
+    handleDeleteAll,
+    uploadFiles, // Presuming you have this function implemented in the hook
+  } = useUpload();
 
-  const handleFileChange = (event) => {
-    const files = event.target.files;
-    if (files.length > 3) {
-      alert('Solo puedes subir hasta 3 fotos por vez.');
-      return;
-    }
-    setSelectedFiles(files);
-  };
+  console.log(images);
 
-  const handleHashtagChange = (event) => {
-    setHashtags(event.target.value);
-  };
-
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    // TODO: Handle the file upload process
+    try {
+      await uploadFiles();
+      // Handle success, possibly clearing the selection
+      handleDeleteAll();
+    } catch (error) {
+      // Handle errors, possibly with a user notification
+      console.error('Upload failed', error);
+    }
   };
 
   return (
     <div style={{ margin: '20px' }}>
-      <Typography variant="h4" gutterBottom>
+      <Typography variant='h4' gutterBottom>
         Upload Your Images
       </Typography>
-      <form onSubmit={handleSubmit}>
-
-        <FormControl fullWidth margin="normal">
-          <InputLabel htmlFor="imageUpload">Select images:</InputLabel>
-          <Input
-            id="imageUpload"
-            type="file"
-            inputProps={{ multiple: true }}
-            onChange={handleFileChange}
-          />
-        </FormControl>
-
-        <FormControl fullWidth margin="normal">
-          <TextField
-            id="hashtags"
-            label="Hashtags"
-            variant="outlined"
-            value={hashtags}
-            onChange={handleHashtagChange}
-          />
-        </FormControl>
-
-        <Button variant="contained" color="primary" type="submit">
-          Upload
+      <input
+        accept='image/*'
+        type='file'
+        multiple
+        onChange={handleFileChange}
+        style={{ display: 'none' }}
+        id='raised-button-file'
+      />
+      <label htmlFor='raised-button-file'>
+        <Button variant='contained' component='span'>
+          Choose Images
         </Button>
+      </label>
+      <form onSubmit={handleSubmit}>
+        {images.map((image, index) => (
+          <div key={index}>
+            <img
+              src={image.preview}
+              alt={`Preview ${index}`}
+              style={{ width: '100px' }}
+            />
+            <TextField
+              label='Hashtags'
+              variant='outlined'
+              value={image.hashtags.join(' ')}
+              onChange={(e) => handleHashtagChange(e.target.value, index)}
+              margin='normal'
+            />
+            <Button onClick={() => handleDelete(index)}>Delete</Button>
+          </div>
+        ))}
+        {images.length > 0 && (
+          <Button onClick={handleDeleteAll}>Delete All</Button>
+        )}
+        <Button type='submit'>Upload</Button>
       </form>
+      <ImageCarousel
+        images={images.map((img) => img.preview)}
+        onDelete={handleDelete}
+      />
     </div>
   );
 };
