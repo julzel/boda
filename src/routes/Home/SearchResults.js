@@ -13,8 +13,10 @@ const SearchResults = ({ searchResults, searchQuery }) => {
         <ul>
           {searchResults.map((mesa) => (
             <li key={mesa.mesa} className={styles.table}>
+              <header>
               <h2>Mesa</h2>
-              <h3>{mesa.mesa}</h3>
+                <img src={mesa['img-src']} alt={mesa.mesa} />
+              </header>
               <ul>
                 {mesa.invitados.map((invitado) => (
                   <li key={invitado.nombre} className={styles.guest}>
@@ -31,7 +33,7 @@ const SearchResults = ({ searchResults, searchQuery }) => {
                       }`}
                     >
                       {invitado.alias}{' '}
-                      <span className={styles.small}>({invitado.nombre})</span>
+                      <span className={styles.small}> | {invitado.nombre}</span>
                     </span>
                   </li>
                 ))}

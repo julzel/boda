@@ -55,17 +55,42 @@ const Home = () => {
     color: '#555',
   };
 
+  const bgStyle = {
+    backgroundImage: 'url(/img/bg2.png)',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    minHeight: '100vh',
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    width: '100%',
+    zIndex: -1,
+  };
+
+  const contentStyle = {
+    backgroundColor: 'rgba(255, 255, 255, 0.8)',
+    boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+    padding: 16,
+    borderRadius: 8,
+  };
+
   return (
     <div style={homeStyle}>
-      <Welcome />
-      {isLoading ? (
-        <p>Cargando...</p>
-      ) : (
-        <>
-          <SearchGuest value={searchQuery} onChange={handleSearchChange}  />
-          <SearchResults searchResults={searchResults} searchQuery={searchQuery} />
-        </>
-      )}
+      <div style={bgStyle} />
+      <div style={contentStyle}>
+        <Welcome />
+        {isLoading ? (
+          <p>Cargando...</p>
+        ) : (
+          <>
+            <SearchGuest value={searchQuery} onChange={handleSearchChange} />
+            <SearchResults
+              searchResults={searchResults}
+              searchQuery={searchQuery}
+            />
+          </>
+        )}
+      </div>
     </div>
   );
 };

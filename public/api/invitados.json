@@ -2,6 +2,7 @@
   "mesas": [
     {
       "mesa": "Jagger",
+      "img-src": "/img/tables/jagger.png",
       "invitados": [
         {
           "nombre": "Elizabeth Vargas",
@@ -47,6 +48,7 @@
     },
     {
       "mesa": "Lucas",
+      "img-src": "/img/tables/lucas.png",
       "invitados": [
         {
           "nombre": "Yaleydy Marquez Ramírez",
@@ -92,6 +94,7 @@
     },
     {
       "mesa": "Chloe",
+      "img-src": "/img/tables/chloe.png",
       "invitados": [
         {
           "nombre": "Pamela de Dios Villalobos",
@@ -137,6 +140,7 @@
     },
     {
       "mesa": "Liana",
+      "img-src": "/img/tables/liana.png",
       "invitados": [
         {
           "nombre": "Stephanie Granados",
@@ -178,6 +182,7 @@
     },
     {
       "mesa": "Kiara",
+      "img-src": "/img/tables/kiara.png",
       "invitados": [
         {
           "nombre": "Harold Arias Zeledón",
@@ -223,6 +228,7 @@
     },
     {
       "mesa": "Skippy",
+      "img-src": "/img/tables/skippy.png",
       "invitados": [
         {
           "nombre": "Samantha Chapman",
@@ -268,6 +274,7 @@
     },
     {
       "mesa": "Macha",
+      "img-src": "/img/tables/macha.png",
       "invitados": [
         {
           "nombre": "Aaron",
@@ -313,6 +320,7 @@
     },
     {
       "mesa": "Milo",
+      "img-src": "/img/tables/milo.png",
       "invitados": [
         {
           "nombre": "Sofia Marquez",
@@ -357,7 +365,8 @@
       ]
     },
     {
-      "mesa": "Mia",
+      "mesa": "Mía",
+      "img-src": "/img/tables/mia.png",
       "invitados": [
         {
           "nombre": "Ronald Meoño",
@@ -403,6 +412,7 @@
     },
     {
       "mesa": "Coquita",
+      "img-src": "/img/tables/coquita.png",
       "invitados": [
         {
           "nombre": "Kenia Romero",
@@ -448,6 +458,7 @@
     },
     {
       "mesa": "Flika",
+      "img-src": "/img/tables/flika.png",
       "invitados": [
         {
           "nombre": "Andrey Moreno",
@@ -489,6 +500,7 @@
     },
     {
       "mesa": "Juve",
+      "img-src": "/img/tables/juve.png",
       "invitados": [
         {
           "nombre": "Nathalie Montoya",
@@ -534,6 +546,7 @@
     },
     {
       "mesa": "Coyote",
+      "img-src": "/img/tables/coyote.png",
       "invitados": [
         {
           "nombre": "Lourdes Fernández",

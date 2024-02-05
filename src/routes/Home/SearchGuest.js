@@ -5,7 +5,7 @@ const SearchGuest = ({ value, onChange }) => (
   <div className={styles.searchGuest}>
     <input
       type='text'
-      placeholder='Tu nombre... o apodo'
+      placeholder='Nombre'
       value={value}
       onChange={onChange}
       className={styles.searchInput}

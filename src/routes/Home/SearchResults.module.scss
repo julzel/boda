@@ -1,6 +1,7 @@
 .searchResults {
   margin: 0 auto;
   padding: 16px;
+  padding-top: 48px;
 
   ul {
     list-style: none;
@@ -9,15 +10,27 @@
 
     .table {
       font-size: 32px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid #dedede;
+      padding-bottom: 32px;
 
-      h2, h3 {
-        margin: 0;
-        margin-bottom: 8px;
-        padding: 0;
-      }
+      header {
+        width: 100%;
+        margin-bottom: 16px;
 
-      h2 {
-        font-family: 'Tangerine';
+        img {
+          border-radius: 50%;
+          width: 60%;
+        }
+
+        h2 {
+          text-align: center;
+          font-family: 'Tangerine';
+          margin: 0;
+          margin-bottom: 8px;
+          padding: 0;
+          flex-shrink: 0;
+        }
       }
     }
 
@@ -26,13 +39,14 @@
 
       .result {
         display: inline-block;
-        font-size: 22px;
+        font-size: 18px;
         transition: all 0.3s ease-in-out;
       }
 
       .highlighted {
         font-weight: bold;
-        background-color: lighten(#DCAFAD, 15%);
+        font-size: 24px;
+        background-color: lighten(#dcafad, 17%);
         padding: 8px 16px;
       }
 

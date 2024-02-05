@@ -5,16 +5,16 @@
 }
 
 .searchInput {
+  background-color: transparent;
   border-radius: 0;
   border: none;
-  border-bottom: 1px solid #dedede;
-  font-size: 20px;
+  border-bottom: 1px solid #212121;
+  font-size: 32px;
   height: 48px;
   text-align: center;
   width: 80%;
 
   &:focus {
     outline: none;
-    border-bottom: 1px solid #212121;
   }
 }
