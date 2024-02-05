@@ -1,0 +1,581 @@
+{
+  "mesas": [
+    {
+      "mesa": "Jagger",
+      "invitados": [
+        {
+          "nombre": "Elizabeth Vargas",
+          "alias": "Doña Eli"
+        },
+        {
+          "nombre": "Julio Zeledón Chavarría",
+          "alias": "Don Julio"
+        },
+        {
+          "nombre": "Dennisse Zeledón",
+          "alias": "Beba"
+        },
+        {
+          "nombre": "Mechitas",
+          "alias": "Kevin"
+        },
+        {
+          "nombre": "Elizabeth Zamora",
+          "alias": "Peto"
+        },
+        {
+          "nombre": "Carmela Chavarría",
+          "alias": "Mimi"
+        },
+        {
+          "nombre": "María Magdalena Morales",
+          "alias": "Doña Nena"
+        },
+        {
+          "nombre": "Felix Vargas",
+          "alias": "Felitos"
+        },
+        {
+          "nombre": "Javier Vargas",
+          "alias": "Tío Javi"
+        },
+        {
+          "nombre": "Karina Vargas",
+          "alias": "Kari"
+        }
+      ]
+    },
+    {
+      "mesa": "Lucas",
+      "invitados": [
+        {
+          "nombre": "Yaleydy Marquez Ramírez",
+          "alias": "Yale"
+        },
+        {
+          "nombre": "Jhonathan Arroyo",
+          "alias": "Jhonny"
+        },
+        {
+          "nombre": "Brianna Arroyo",
+          "alias": "Bri"
+        },
+        {
+          "nombre": "Alicinia Marquez Ramírez",
+          "alias": "Ali"
+        },
+        {
+          "nombre": "Liam Lixa",
+          "alias": "Liam"
+        },
+        {
+          "nombre": "Carlos Zeledón",
+          "alias": "Tío Carlos"
+        },
+        {
+          "nombre": "Elenita Jiménez",
+          "alias": "Elenita"
+        },
+        {
+          "nombre": "Ismael Zeledón",
+          "alias": "Isma"
+        },
+        {
+          "nombre": "Ligia Zeledón",
+          "alias": "Tía Ligia"
+        },
+        {
+          "nombre": "Ricardo",
+          "alias": "Don Ricardo tia Ligia"
+        }
+      ]
+    },
+    {
+      "mesa": "Chloe",
+      "invitados": [
+        {
+          "nombre": "Pamela de Dios Villalobos",
+          "alias": "Pame"
+        },
+        {
+          "nombre": "Laura Elena Anguizola",
+          "alias": "Ele"
+        },
+        {
+          "nombre": "Leonardo",
+          "alias": "Leo"
+        },
+        {
+          "nombre": "Laura Patricia Vargas",
+          "alias": "Tía Lau"
+        },
+        {
+          "nombre": "Paula Vargas",
+          "alias": "Tía Pau"
+        },
+        {
+          "nombre": "Bernal Blanco",
+          "alias": "Ber"
+        },
+        {
+          "nombre": "Lucia Blanco",
+          "alias": "Lu"
+        },
+        {
+          "nombre": "Sarah Blanco",
+          "alias": "Sarita"
+        },
+        {
+          "nombre": "Daniela Bejarano",
+          "alias": "Dani"
+        },
+        {
+          "nombre": "Jason Arce",
+          "alias": "Jason"
+        }
+      ]
+    },
+    {
+      "mesa": "Liana",
+      "invitados": [
+        {
+          "nombre": "Stephanie Granados",
+          "alias": "Fannie"
+        },
+        {
+          "nombre": "Luis Díaz",
+          "alias": "Luis"
+        },
+        {
+          "nombre": "Maricruz Arias Vaglio",
+          "alias": "Mari Comedianta"
+        },
+        {
+          "nombre": "Emma Otárola",
+          "alias": "Emma Comediante"
+        },
+        {
+          "nombre": "Oscar Camacho",
+          "alias": "Churby"
+        },
+        {
+          "nombre": "Natalia García",
+          "alias": "Natie"
+        },
+        {
+          "nombre": "Paula Vega",
+          "alias": "Pauli"
+        },
+        {
+          "nombre": "David Chavarría",
+          "alias": "Choma"
+        },
+        {
+          "nombre": "Tanya Leiva",
+          "alias": "Tany"
+        }
+      ]
+    },
+    {
+      "mesa": "Kiara",
+      "invitados": [
+        {
+          "nombre": "Harold Arias Zeledón",
+          "alias": "Hardol David"
+        },
+        {
+          "nombre": "Aura Vanesa Arias Zeledón",
+          "alias": "Vanesa"
+        },
+        {
+          "nombre": "Stephanie Svetlana Arias Zeledón",
+          "alias": "Stephanie"
+        },
+        {
+          "nombre": "Gladys Zeledón",
+          "alias": "Gladys"
+        },
+        {
+          "nombre": "Harold Zeledón",
+          "alias": "Harold Antonio"
+        },
+        {
+          "nombre": "Catalina Zeledón",
+          "alias": "Tía Cata"
+        },
+        {
+          "nombre": "Ricardo",
+          "alias": "Don Richard"
+        },
+        {
+          "nombre": "Arturo Dinarte",
+          "alias": "Tío Arturo"
+        },
+        {
+          "nombre": "Shirley Zeledón",
+          "alias": "Tía Shirley"
+        },
+        {
+          "nombre": "Jorge Robles",
+          "alias": "Uncle George"
+        }
+      ]
+    },
+    {
+      "mesa": "Skippy",
+      "invitados": [
+        {
+          "nombre": "Samantha Chapman",
+          "alias": "Sammy"
+        },
+        {
+          "nombre": "Luis",
+          "alias": "Luis"
+        },
+        {
+          "nombre": "Dward Castro",
+          "alias": "Dewis"
+        },
+        {
+          "nombre": "Paula",
+          "alias": "Novia Dwis"
+        },
+        {
+          "nombre": "Dayana Castro",
+          "alias": "Dayi"
+        },
+        {
+          "nombre": "Manfred Coto",
+          "alias": "Man"
+        },
+        {
+          "nombre": "Zeylin Castro",
+          "alias": "Zello"
+        },
+        {
+          "nombre": "Lester Salas",
+          "alias": "Lester"
+        },
+        {
+          "nombre": "Andrea Acuña",
+          "alias": "Macha"
+        },
+        {
+          "nombre": "Javier Campos",
+          "alias": "Javi"
+        }
+      ]
+    },
+    {
+      "mesa": "Macha",
+      "invitados": [
+        {
+          "nombre": "Aaron",
+          "alias": "Aaron"
+        },
+        {
+          "nombre": "Natalia De La O",
+          "alias": "Naty"
+        },
+        {
+          "nombre": "Gina De La O",
+          "alias": "Tia Gina"
+        },
+        {
+          "nombre": "Diego De La O",
+          "alias": "Diego"
+        },
+        {
+          "nombre": "Odin Taylor",
+          "alias": "Odin"
+        },
+        {
+          "nombre": "Marcela de La O",
+          "alias": "Marce"
+        },
+        {
+          "nombre": "Deylin Salas",
+          "alias": "Dey"
+        },
+        {
+          "nombre": "Manfred",
+          "alias": "Manny"
+        },
+        {
+          "nombre": "Donniel Salas",
+          "alias": "Pito"
+        },
+        {
+          "nombre": "Kelly Creador",
+          "alias": "Kelly"
+        }
+      ]
+    },
+    {
+      "mesa": "Milo",
+      "invitados": [
+        {
+          "nombre": "Sofia Marquez",
+          "alias": "Chuchis"
+        },
+        {
+          "nombre": "Johansen Corella",
+          "alias": "Joha"
+        },
+        {
+          "nombre": "Byron Marquez",
+          "alias": "Byron"
+        },
+        {
+          "nombre": "Tiffany Villegas",
+          "alias": "Tiffany"
+        },
+        {
+          "nombre": "Melanie Marquez",
+          "alias": "Mel"
+        },
+        {
+          "nombre": "Agatha Marquez",
+          "alias": "Agatha"
+        },
+        {
+          "nombre": "Santiago Marquez",
+          "alias": "Santi"
+        },
+        {
+          "nombre": "Adams Marquez /Marcela de La O",
+          "alias": ""
+        },
+        {
+          "nombre": "Dereck Marquez",
+          "alias": "Ñe"
+        },
+        {
+          "nombre": "Karla",
+          "alias": ""
+        }
+      ]
+    },
+    {
+      "mesa": "Mia",
+      "invitados": [
+        {
+          "nombre": "Ronald Meoño",
+          "alias": "Rolo (ser malvado)"
+        },
+        {
+          "nombre": "Pamela Sánchez",
+          "alias": "Pame"
+        },
+        {
+          "nombre": "Eduardo Arias",
+          "alias": "Tato"
+        },
+        {
+          "nombre": "Mariela Barrientos",
+          "alias": "Mari"
+        },
+        {
+          "nombre": "Alejandro Córdoba",
+          "alias": "Ale"
+        },
+        {
+          "nombre": "Gabriela Muñoz",
+          "alias": "Gaby"
+        },
+        {
+          "nombre": "David Fernández",
+          "alias": "Huevo"
+        },
+        {
+          "nombre": "María José Salazar",
+          "alias": "María"
+        },
+        {
+          "nombre": "José Fallas",
+          "alias": "Fashitas"
+        },
+        {
+          "nombre": "Fabián Carballo",
+          "alias": "Fabiruchis"
+        }
+      ]
+    },
+    {
+      "mesa": "Coquita",
+      "invitados": [
+        {
+          "nombre": "Kenia Romero",
+          "alias": "Keni"
+        },
+        {
+          "nombre": "María Haydee Romero",
+          "alias": "María Haydee"
+        },
+        {
+          "nombre": "Kiria Ruiz",
+          "alias": "Kiri"
+        },
+        {
+          "nombre": "Yuliana Otoya",
+          "alias": "Yuli"
+        },
+        {
+          "nombre": "Mariana Rivera",
+          "alias": "Mari"
+        },
+        {
+          "nombre": "Maxine Provenzal",
+          "alias": "Max"
+        },
+        {
+          "nombre": "Jose Calvo",
+          "alias": "José"
+        },
+        {
+          "nombre": "Laura Camila Vargas",
+          "alias": "Cami"
+        },
+        {
+          "nombre": "Danny Rodríguez",
+          "alias": "Cuco"
+        },
+        {
+          "nombre": "David ",
+          "alias": "Goku"
+        }
+      ]
+    },
+    {
+      "mesa": "Flika",
+      "invitados": [
+        {
+          "nombre": "Andrey Moreno",
+          "alias": "Andrey"
+        },
+        {
+          "nombre": "Daniel Rojas",
+          "alias": "Manotas"
+        },
+        {
+          "nombre": "Nataly Moya",
+          "alias": "Naty Manotas"
+        },
+        {
+          "nombre": "Ronald Hidalgo",
+          "alias": "Ronital"
+        },
+        {
+          "nombre": "Denis Hurtado",
+          "alias": "Denis"
+        },
+        {
+          "nombre": "Andrea Arias",
+          "alias": "Andrea"
+        },
+        {
+          "nombre": "Sebastián Rojas",
+          "alias": "Sebitas"
+        },
+        {
+          "nombre": "Diego Orozco",
+          "alias": "Orozco"
+        },
+        {
+          "nombre": "Steven ",
+          "alias": "Steven"
+        }
+      ]
+    },
+    {
+      "mesa": "Juve",
+      "invitados": [
+        {
+          "nombre": "Nathalie Montoya",
+          "alias": "Nana"
+        },
+        {
+          "nombre": "Gabriel Solano",
+          "alias": "Gabo"
+        },
+        {
+          "nombre": "Mariela Rojas",
+          "alias": "Marielita"
+        },
+        {
+          "nombre": "Ernesto Álvarez",
+          "alias": "Clarito"
+        },
+        {
+          "nombre": "Andrea Pereira",
+          "alias": "Negra"
+        },
+        {
+          "nombre": "Johanny Nuñez",
+          "alias": "Yiyo"
+        },
+        {
+          "nombre": "Gretel González",
+          "alias": "Gre"
+        },
+        {
+          "nombre": "Pablo Cambronero",
+          "alias": "Pablo"
+        },
+        {
+          "nombre": "Lyly Rodríguez",
+          "alias": "Ly"
+        },
+        {
+          "nombre": "Marta Elena González",
+          "alias": "Martita"
+        }
+      ]
+    },
+    {
+      "mesa": "Coyote",
+      "invitados": [
+        {
+          "nombre": "Lourdes Fernández",
+          "alias": "Lou"
+        },
+        {
+          "nombre": "Valery Bermúdez",
+          "alias": "Vale"
+        },
+        {
+          "nombre": "Mariela Mora",
+          "alias": "Bon"
+        },
+        {
+          "nombre": "Marcie Miller",
+          "alias": "Marcie"
+        },
+        {
+          "nombre": "Maria Fernanda Arce",
+          "alias": "Mària"
+        },
+        {
+          "nombre": "Guillermo ",
+          "alias": "Guille"
+        },
+        {
+          "nombre": "Fabiola",
+          "alias": "Fabi"
+        },
+        {
+          "nombre": "Joan",
+          "alias": "Joan"
+        },
+        {
+          "nombre": "Suegra Marcie",
+          "alias": ""
+        },
+        {
+          "nombre": "Mario José",
+          "alias": "Marito"
+        }
+      ]
+    }
+  ]
+}
