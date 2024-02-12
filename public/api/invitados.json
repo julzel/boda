@@ -9,16 +9,12 @@
           "alias": "Doña Eli"
         },
         {
-          "nombre": "Julio Zeledón Chavarría",
+          "nombre": "Julio Zeledón",
           "alias": "Don Julio"
         },
         {
-          "nombre": "Dennisse Zeledón",
+          "nombre": "Denisse Zeledón",
           "alias": "Beba"
-        },
-        {
-          "nombre": "Mechitas",
-          "alias": "Kevin"
         },
         {
           "nombre": "Elizabeth Zamora",
@@ -27,6 +23,10 @@
         {
           "nombre": "Carmela Chavarría",
           "alias": "Mimi"
+        },
+        {
+          "nombre": "José Murillo",
+          "alias": "Don José"
         },
         {
           "nombre": "María Magdalena Morales",
@@ -51,7 +51,7 @@
       "img-src": "/img/tables/lucas.png",
       "invitados": [
         {
-          "nombre": "Yaleydy Marquez Ramírez",
+          "nombre": "Yaleydy Marquez",
           "alias": "Yale"
         },
         {
@@ -63,7 +63,7 @@
           "alias": "Bri"
         },
         {
-          "nombre": "Alicinia Marquez Ramírez",
+          "nombre": "Alicinia Marquez",
           "alias": "Ali"
         },
         {
@@ -87,8 +87,8 @@
           "alias": "Tía Ligia"
         },
         {
-          "nombre": "Ricardo",
-          "alias": "Don Ricardo tia Ligia"
+          "nombre": "Ricardo Chacón",
+          "alias": "Don Ricardo"
         }
       ]
     },
@@ -97,7 +97,7 @@
       "img-src": "/img/tables/chloe.png",
       "invitados": [
         {
-          "nombre": "Pamela de Dios Villalobos",
+          "nombre": "Pamela Villalobos",
           "alias": "Pame"
         },
         {
@@ -105,7 +105,7 @@
           "alias": "Ele"
         },
         {
-          "nombre": "Leonardo",
+          "nombre": "Leonardo Carazo",
           "alias": "Leo"
         },
         {
@@ -155,7 +155,7 @@
           "alias": "Mari Comedianta"
         },
         {
-          "nombre": "Emma Otárola",
+          "nombre": "Emanuel Otárola",
           "alias": "Emma Comediante"
         },
         {
@@ -185,15 +185,15 @@
       "img-src": "/img/tables/kiara.png",
       "invitados": [
         {
-          "nombre": "Harold Arias Zeledón",
-          "alias": "Hardol David"
+          "nombre": "Harold Arias",
+          "alias": "Harol David"
         },
         {
-          "nombre": "Aura Vanesa Arias Zeledón",
+          "nombre": "Aura Vanesa Arias",
           "alias": "Vanesa"
         },
         {
-          "nombre": "Stephanie Svetlana Arias Zeledón",
+          "nombre": "Stephanie Svetlana Arias",
           "alias": "Stephanie"
         },
         {
@@ -209,7 +209,7 @@
           "alias": "Tía Cata"
         },
         {
-          "nombre": "Ricardo",
+          "nombre": "Ricardo González",
           "alias": "Don Richard"
         },
         {
@@ -235,16 +235,16 @@
           "alias": "Sammy"
         },
         {
-          "nombre": "Luis",
+          "nombre": "Luis Sa",
           "alias": "Luis"
         },
         {
           "nombre": "Dward Castro",
-          "alias": "Dewis"
+          "alias": "Dwis"
         },
         {
-          "nombre": "Paula",
-          "alias": "Novia Dwis"
+          "nombre": "Paula Salas",
+          "alias": "Paula"
         },
         {
           "nombre": "Dayana Castro",
@@ -277,8 +277,8 @@
       "img-src": "/img/tables/macha.png",
       "invitados": [
         {
-          "nombre": "Aaron",
-          "alias": "Aaron"
+          "nombre": "Aarón Montero",
+          "alias": "Aarón"
         },
         {
           "nombre": "Natalia De La O",
@@ -305,7 +305,7 @@
           "alias": "Dey"
         },
         {
-          "nombre": "Manfred",
+          "nombre": "Emanuel da Silva",
           "alias": "Manny"
         },
         {
@@ -351,16 +351,16 @@
           "alias": "Santi"
         },
         {
-          "nombre": "Adams Marquez /Marcela de La O",
-          "alias": ""
+          "nombre": "Adams Marquez",
+          "alias": "Don Chino"
         },
         {
           "nombre": "Dereck Marquez",
           "alias": "Ñe"
         },
         {
-          "nombre": "Karla",
-          "alias": ""
+          "nombre": "Karla Anguiano",
+          "alias": "Karla"
         }
       ]
     },
@@ -435,7 +435,7 @@
           "alias": "Mari"
         },
         {
-          "nombre": "Maxine Provenzal",
+          "nombre": "Maxime Provensal",
           "alias": "Max"
         },
         {
@@ -447,11 +447,11 @@
           "alias": "Cami"
         },
         {
-          "nombre": "Danny Rodríguez",
+          "nombre": "Danny Quirós",
           "alias": "Cuco"
         },
         {
-          "nombre": "David ",
+          "nombre": "David Rodríguez",
           "alias": "Goku"
         }
       ]
@@ -462,7 +462,7 @@
       "invitados": [
         {
           "nombre": "Andrey Moreno",
-          "alias": "Andrey"
+          "alias": "Andrew"
         },
         {
           "nombre": "Daniel Rojas",
@@ -493,8 +493,12 @@
           "alias": "Orozco"
         },
         {
-          "nombre": "Steven ",
-          "alias": "Steven"
+          "nombre": "Andrés Vargas",
+          "alias": "Andrés Indi"
+        },
+        {
+          "nombre": "Steven Álvarez",
+          "alias": "Steven (Profe)"
         }
       ]
     },
@@ -540,7 +544,7 @@
         },
         {
           "nombre": "Marta Elena González",
-          "alias": "Martita"
+          "alias": "Marta Elena"
         }
       ]
     },
@@ -561,32 +565,32 @@
           "alias": "Bon"
         },
         {
-          "nombre": "Marcie Miller",
+          "nombre": "Mario José Elizondo",
+          "alias": "Marito"
+        },
+        {
+          "nombre": "Marcia Miller",
           "alias": "Marcie"
+        },
+        {
+          "nombre": "Sylvia Criddle-Heaster",
+          "alias": "Sylvia"
         },
         {
           "nombre": "Maria Fernanda Arce",
           "alias": "Mària"
         },
         {
-          "nombre": "Guillermo ",
+          "nombre": "Guillermo Carvajal",
           "alias": "Guille"
         },
         {
-          "nombre": "Fabiola",
-          "alias": "Fabi"
+          "nombre": "Fabiola Rojas",
+          "alias": "Fabis"
         },
         {
           "nombre": "Joan",
           "alias": "Joan"
-        },
-        {
-          "nombre": "Suegra Marcie",
-          "alias": ""
-        },
-        {
-          "nombre": "Mario José",
-          "alias": "Marito"
         }
       ]
     }

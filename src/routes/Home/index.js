@@ -50,6 +50,8 @@ const Home = () => {
   }, []);
 
   const homeStyle = {
+    margin: '0 auto',
+    maxWidth: '768px',
     padding: '32px 16px',
     textAlign: 'center',
     color: '#555',
