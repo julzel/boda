@@ -159,6 +159,14 @@
           "alias": "Emma Comediante"
         },
         {
+          "nombre": "José Fallas",
+          "alias": "Fashitas"
+        },
+        {
+          "nombre": "David Chavarría",
+          "alias": "Choma"
+        },
+        {
           "nombre": "Oscar Camacho",
           "alias": "Churby"
         },
@@ -171,10 +179,6 @@
           "alias": "Pauli"
         },
         {
-          "nombre": "David Chavarría",
-          "alias": "Choma"
-        },
-        {
           "nombre": "Tanya Leiva",
           "alias": "Tany"
         }
@@ -185,12 +189,12 @@
       "img-src": "/img/tables/kiara.png",
       "invitados": [
         {
-          "nombre": "Harold Arias",
-          "alias": "Harol David"
+          "nombre": "Harold D Arias",
+          "alias": "Harolito"
         },
         {
-          "nombre": "Aura Vanesa Arias",
-          "alias": "Vanesa"
+          "nombre": "Aura Vanessa Arias",
+          "alias": "Vanessa"
         },
         {
           "nombre": "Stephanie Svetlana Arias",
@@ -201,8 +205,8 @@
           "alias": "Gladys"
         },
         {
-          "nombre": "Harold Zeledón",
-          "alias": "Harold Antonio"
+          "nombre": "Harold A Zeledón",
+          "alias": "Harold"
         },
         {
           "nombre": "Catalina Zeledón",
@@ -401,10 +405,6 @@
           "alias": "María"
         },
         {
-          "nombre": "José Fallas",
-          "alias": "Fashitas"
-        },
-        {
           "nombre": "Fabián Carballo",
           "alias": "Fabiruchis"
         }
@@ -589,7 +589,7 @@
           "alias": "Fabis"
         },
         {
-          "nombre": "Joan",
+          "nombre": "Joan Chavarría",
           "alias": "Joan"
         }
       ]
